@@ -13,15 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e0d5fb9a-99d8-4253-bf2d-95f080a34bc4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo.o" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneticFinder.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneticFinder.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhoneticFinder.o" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneticFinder.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo" beforeDir="false" afterPath="$PROJECT_DIR$/demo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
