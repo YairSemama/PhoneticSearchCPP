@@ -8,39 +8,36 @@ using namespace phonetic;
 
 TEST_CASE("Shuffle between v and w "){
     CHECK(phonetic::find(c , "saw") == string("saw"));
-    CHECK(phonetic::find(c , "wend") == string("vent"));
-    CHECK(phonetic::find(c , "walking") == string("valking"));
+    CHECK(phonetic::find(c , "went") == string("vent"));
+    CHECK(phonetic::find(c , "valking") == string("walking"));
     CHECK(phonetic::find(c , "bowls") == string("bovls"));
-    CHECK(phonetic::find(c , "vas") == string("was"));
-    CHECK(phonetic::find(c , "wery") == string("very"));
-    CHECK(phonetic::find(c , "dovnstairs") == string("downstairs"));
+    CHECK(phonetic::find(c , "was") == string("vas"));
+    CHECK(phonetic::find(c , "very") == string("wery"));
+    CHECK(phonetic::find(c , "downstairs") == string("dovnstairs"));
 
 }
 
 TEST_CASE("Shuffle between b and f and p "){
-            CHECK(phonetic::find(c , "borest") == string("forest"));
-            CHECK(phonetic::find(c , "porest") == string("forest"));
-            CHECK(phonetic::find(c , "sobt") == string("soft"));
-            CHECK(phonetic::find(c , "fovls") == string("bowls"));
-            CHECK(phonetic::find(c , "papy") == string("baby"));
-            CHECK(phonetic::find(c , "peen") == string("been"));
+            CHECK(phonetic::find(c , "forest") == string("borest"));
+            CHECK(phonetic::find(c , "soft") == string("sobt"));
+            CHECK(phonetic::find(c , "baby") == string("papy"));
+            CHECK(phonetic::find(c , "been") == string("peen"));
 
 }
 
 TEST_CASE("Shuffle between g and j "){
-            CHECK(phonetic::find(c , "jirl") == string("girl"));
-            CHECK(phonetic::find(c , "porridje") == string("porridge"));
-            CHECK(phonetic::find(c , "eatinj") == string("eating"));
-            CHECK(phonetic::find(c , "sleepinj") == string("sleeping"));
-            CHECK(phonetic::find(c , "ajain") == string("again"));
-            CHECK(phonetic::find(c , "gust") == string("just"));
-            CHECK(phonetic::find(c , "jolden") == string("golden"));
-            CHECK(phonetic::find(c , "ajain") == string("again"));
+            CHECK(phonetic::find(c , "girl") == string("jirl"));
+            CHECK(phonetic::find(c , "porridge") == string("porridje"));
+            CHECK(phonetic::find(c , "eating") == string("eatinj"));
+            CHECK(phonetic::find(c , "sleeping") == string("sleepinj"));
+            CHECK(phonetic::find(c , "again") == string("ajain"));
+            CHECK(phonetic::find(c , "just") == string("gust"));
+            CHECK(phonetic::find(c , "golden") == string("jolden"));
 
 }
 
 TEST_CASE("Shuffle between c and k and q  "){
-            CHECK(phonetic::find(c , "Onke") == string("once"));
+            CHECK(phonetic::find(c , "once") == string("Onke"));Onke
             CHECK(phonetic::find(c , "Goldilokks") == string("Goldilocks"));
             CHECK(phonetic::find(c , "kold") == string("cold"));
             CHECK(phonetic::find(c , "qhair") == string("chair"));
