@@ -20,7 +20,7 @@ string getLittleLetter(string word)
 
 int check(string Original , string Check)
 {
-    //if(Original.size() != Check.size()) return 0 ;
+    if(Original.size() != Check.size()) return 0 ;
 
     string word = getLittleLetter(Original);
     string wordCheck = getLittleLetter(Check);
@@ -69,14 +69,16 @@ string substring(string text ,int start , int end ) {
 
 
      string phonetic::find(string text, string word) {
-// hai      bye     ha  \n
+//".....KephalupUd lympz "
         int start = 0;
         int flag = 0;
         string ans;
         for (int i = 0; i < text.size(); ++i) {
+            if(text[i] == c && i == 0){
+                start++;
+            }
             if (text[i] == c && i != 0) {
                 ans = substring(text ,start, i-1);
-                 // cout << ans << " || " << word << endl ;
                 flag = check(ans, word);
                 if (flag) return ans;
                 while(i != text.size()-1 && text[i+1] == c){

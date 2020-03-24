@@ -13,6 +13,16 @@
   <component name="ChangeListManager">
     <list default="true" id="e0d5fb9a-99d8-4253-bf2d-95f080a34bc4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/Demo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhoneticFinder.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneticFinder.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhoneticFinder.o" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneticFinder.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.o" beforeDir="false" afterPath="$PROJECT_DIR$/Test.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
+>>>>>>> 08101cea4e36b929b1337bd2f84d68cdf5f9f9c4
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +94,7 @@
       <workItem from="1584991263479" duration="3409000" />
       <workItem from="1585042070884" duration="10830000" />
       <workItem from="1585055781560" duration="1836000" />
-      <workItem from="1585057895238" duration="4514000" />
+      <workItem from="1585057895238" duration="7559000" />
     </task>
     <servers />
   </component>
