@@ -1,3 +1,0 @@
-/home/yair/Desktop/CPP/PhoneticSearchCPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/yair/Desktop/CPP/PhoneticSearchCPP/cmake-build-debug/CMakeFiles/untitled6.dir
-/home/yair/Desktop/CPP/PhoneticSearchCPP/cmake-build-debug/CMakeFiles/edit_cache.dir
