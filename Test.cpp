@@ -1,13 +1,14 @@
 #include "doctest.h"
-#include <iostream>
 #include "PhoneticFinder.hpp"
 #include <string>
-#define  c " KephalupUd lympz hUVever Vythyn deuDhulugycal KUnDexD reBer DenDaKle reZerWed BeeTing affendajes octopuZez soPD futi rapytli alder zhafe enaflinj ZqueeSe japz drayl svym syfhon rezfyratyon locomotion expellynj complex nervous excellend syghd amunj yndellygent behaviourally tiwerze curuna virus demplede UniUn SKSE   maLLUQ  Afkte YzHtY hUt cub QaQy folfol Iayr afErJeL zHyN upstairs pAlAjan dahad lalala  zhLoMY YiY SUOn ylanIa oryeL  yiyiyi  Bot iohoo saw  ieled  MOmmy  IardemshnotzY  ioloy   vent  Ialla yarden  valking    bovls vas wery dovnstairs borest sobt fovls papy peen  jirl porridje eatinj sleepinj ajaingust jolden ajain Onke Goldilokks kold qhair baqc Qame walking broke knocked Qold Khair BaKk Qame waS Saw zaid Goldiloqqz Zomeonez itZ Ztill zhe foreZt Tay Goltilokks porritge taddy anT saiT townsDairs golTen liDTle siTDing sidting sdill Dhere TownsTairs inDo foresd Dime OpUn tuo porridge    "
-using namespace std;
+#include <iostream>
 using namespace phonetic;
+using namespace std;
+// #define  c " KephalupUd lympz hUVever Vythyn deuDhulugycal KUnDexD reBer DenDaKle reZerWed BeeTing affendajes octopuZez soPD futi rapytli alder zhafe enaflinj ZqueeSe japz drayl svym syfhon rezfyratyon locomotion expellynj complex nervous excellend syghd amunj yndellygent behaviourally tiwerze curuna virus demplede UniUn SKSE   maLLUQ  Afkte YzHtY hUt cub QaQy folfol Iayr afErJeL zHyN upstairs pAlAjan dahad lalala  zhLoMY YiY SUOn ylanIa oryeL  yiyiyi  Bot iohoo saw  ieled  MOmmy  IardemshnotzY  ioloy   vent  Ialla yarden  valking    bovls vas wery dovnstairs borest sobt fovls papy peen  jirl porridje eatinj sleepinj ajain gust jolden ajain Onke Goldilokks kold qhair baqc Qame walking broke knocked Qold Khair BaKk Qame waS Saw zaid Goldiloqqz Zomeonez itZ Ztill zhe foreZt Tay Goltilokks porritge taddy anT saiT townsDairs golTen liDTle siTDing sidting sdill Dhere TownsTairs inDo foresd Dime OpUn tuo porridge    "
 
 // 7
 TEST_CASE("Shuffle between v and w "){
+            string c = " KephalupUd lympz hUVever Vythyn deuDhulugycal KUnDexD reBer DenDaKle reZerWed BeeTing affendajes octopuZez soPD futi rapytli alder zhafe enaflinj ZqueeSe japz drayl svym syfhon rezfyratyon locomotion expellynj complex nervous excellend syghd amunj yndellygent behaviourally tiwerze curuna virus demplede UniUn SKSE   maLLUQ  Afkte YzHtY hUt cub QaQy folfol Iayr afErJeL zHyN upstairs pAlAjan dahad lalala  zhLoMY YiY SUOn ylanIa oryeL  yiyiyi  Bot iohoo saw  ieled  MOmmy  IardemshnotzY  ioloy   vent  Ialla yarden  valking    bovls vas wery dovnstairs borest sobt fovls papy peen  jirl porridje eatinj sleepinj ajain gust jolden ajain Onke Goldilokks kold qhair baqc Qame walking broke knocked Qold Khair BaKk Qame waS Saw zaid Goldiloqqz Zomeonez itZ Ztill zhe foreZt Tay Goltilokks porritge taddy anT saiT townsDairs golTen liDTle siTDing sidting sdill Dhere TownsTairs inDo foresd Dime OpUn tuo porridge    ";
             CHECK(phonetic::find(c , "saw") == string("saw"));
             CHECK(phonetic::find(c , "went") == string("vent"));
             CHECK(phonetic::find(c , "walking") == string("valking"));
@@ -19,15 +20,19 @@ TEST_CASE("Shuffle between v and w "){
 
 // 4
 TEST_CASE("Shuffle between b and f and p "){
-            CHECK(phonetic::find(c , "forest") == string("borest"));
-            CHECK(phonetic::find(c , "soft") == string("sobt"));
+    string c = " KephalupUd lympz hUVever Vythyn deuDhulugycal KUnDexD reBer DenDaKle reZerWed BeeTing affendajes octopuZez soPD futi rapytli alder zhafe enaflinj ZqueeSe japz drayl svym syfhon rezfyratyon locomotion expellynj complex nervous excellend syghd amunj yndellygent behaviourally tiwerze curuna virus demplede UniUn SKSE   maLLUQ  Afkte YzHtY hUt cub QaQy folfol Iayr afErJeL zHyN upstairs pAlAjan dahad lalala  zhLoMY YiY SUOn ylanIa oryeL  yiyiyi  Bot iohoo saw  ieled  MOmmy  IardemshnotzY  ioloy   vent  Ialla yarden  valking    bovls vas wery dovnstairs borest sobt fovls papy peen  jirl porridje eatinj sleepinj ajain gust jolden ajain Onke Goldilokks kold qhair baqc Qame walking broke knocked Qold Khair BaKk Qame waS Saw zaid Goldiloqqz Zomeonez itZ Ztill zhe foreZt Tay Goltilokks porritge taddy anT saiT townsDairs golTen liDTle siTDing sidting sdill Dhere TownsTairs inDo foresd Dime OpUn tuo porridge    ";
+
+    CHECK(phonetic::find(c , "forest") == string("borest"));
+            CHECK(phonetic::find(c , "soft") == string("soPD"));
             CHECK(phonetic::find(c , "baby") == string("papy"));
             CHECK(phonetic::find(c , "been") == string("peen"));
 }
 
 // 7
 TEST_CASE("Shuffle between g and j "){
-            CHECK(phonetic::find(c , "girl") == string("jirl"));
+    string c = "  lympz hUVever Vythyn deuDhulugycal KUnDexD reBer DenDaKle reZerWed BeeTing affendajes octopuZez soPD futi rapytli alder zhafe enaflinj ZqueeSe japz drayl svym syfhon rezfyratyon locomotion expellynj complex nervous excellend syghd amunj yndellygent behaviourally tiwerze curuna virus demplede UniUn SKSE   maLLUQ  Afkte YzHtY hUt cub QaQy folfol Iayr afErJeL zHyN upstairs pAlAjan dahad lalala  zhLoMY YiY SUOn ylanIa oryeL  yiyiyi  Bot iohoo saw  ieled  MOmmy  IardemshnotzY  ioloy   vent  Ialla yarden  valking    bovls vas wery dovnstairs borest sobt fovls papy peen  jirl porridje eatinj sleepinj ajain gust jolden ajain Onke Goldilokks kold qhair baqc Qame walking broke knocked Qold Khair BaKk Qame waS Saw zaid Goldiloqqz Zomeonez itZ Ztill zhe foreZt Tay Goltilokks porritge taddy anT saiT townsDairs golTen liDTle siTDing sidting sdill Dhere TownsTairs inDo foresd Dime OpUn tuo porridge  KephalupUd       ";
+
+    CHECK(phonetic::find(c , "girl") == string("jirl"));
             CHECK(phonetic::find(c , "porridge") == string("porridje"));
             CHECK(phonetic::find(c , "eating") == string("eatinj"));
             CHECK(phonetic::find(c , "sleeping") == string("sleepinj"));
@@ -38,7 +43,9 @@ TEST_CASE("Shuffle between g and j "){
 
 // 8
 TEST_CASE("Shuffle between c and k and q"){
-            CHECK(phonetic::find(c , "once") == string("Onke"));
+    string c = " KephalupUd lympz hUVever Vythyn deuDhulugycal KUnDexD reBer DenDaKle reZerWed BeeTing affendajes octopuZez soPD futi rapytli alder zhafe enaflinj ZqueeSe japz drayl svym syfhon rezfyratyon locomotion expellynj complex nervous excellend syghd amunj yndellygent behaviourally tiwerze curuna virus demplede UniUn SKSE   maLLUQ  Afkte YzHtY hUt cub QaQy folfol Iayr afErJeL zHyN upstairs pAlAjan dahad lalala  zhLoMY YiY SUOn ylanIa oryeL  yiyiyi  Bot iohoo saw  ieled  MOmmy  IardemshnotzY  ioloy   vent  Ialla yarden  valking    bovls vas wery dovnstairs borest sobt fovls papy peen  jirl porridje eatinj sleepinj ajain gust jolden ajain Onke Goldilokks kold qhair baqc Qame walking broke knocked Qold Khair BaKk Qame waS Saw zaid Goldiloqqz Zomeonez itZ Ztill zhe foreZt Tay Goltilokks porritge taddy anT saiT townsDairs golTen liDTle siTDing sidting sdill Dhere TownsTairs inDo foresd Dime OpUn tuo porridge    ";
+
+    CHECK(phonetic::find(c , "once") == string("Onke"));
             CHECK(phonetic::find(c , "Goldilocks") == string("Goldilokks"));
             CHECK(phonetic::find(c , "cold") == string("kold"));
             CHECK(phonetic::find(c , "chair") == string("qhair"));
@@ -50,30 +57,36 @@ TEST_CASE("Shuffle between c and k and q"){
 
 // 5
 TEST_CASE("Shuffle between s and z "){
-            CHECK(phonetic::find(c , "said") == string("zaid"));
+    string c = " KephalupUd lympz hUVever Vythyn deuDhulugycal KUnDexD reBer DenDaKle reZerWed BeeTing affendajes octopuZez soPD futi rapytli alder zhafe enaflinj ZqueeSe japz drayl svym syfhon rezfyratyon locomotion expellynj complex nervous excellend syghd amunj yndellygent behaviourally tiwerze curuna virus demplede UniUn SKSE   maLLUQ  Afkte YzHtY hUt cub QaQy folfol Iayr afErJeL zHyN upstairs pAlAjan dahad lalala  zhLoMY YiY SUOn ylanIa oryeL  yiyiyi  Bot iohoo saw  ieled  MOmmy  IardemshnotzY  ioloy   vent  Ialla yarden  valking    bovls vas wery dovnstairs borest sobt fovls papy peen  jirl porridje eatinj sleepinj ajain gust jolden ajain Onke Goldilokks kold qhair baqc Qame walking broke knocked Qold Khair BaKk Qame waS Saw zaid Goldiloqqz Zomeonez itZ Ztill zhe foreZt Tay Goltilokks porritge taddy anT saiT townsDairs golTen liDTle siTDing sidting sdill Dhere TownsTairs inDo foresd Dime OpUn tuo porridge    ";
+
+    CHECK(phonetic::find(c , "said") == string("zaid"));
             CHECK(phonetic::find(c , "Someones") == string("Zomeonez"));
-            CHECK(phonetic::find(c , "itZ") == string("its"));
+            CHECK(phonetic::find(c , "its") == string("itZ"));
             CHECK(phonetic::find(c , "still") == string("Ztill"));
             CHECK(phonetic::find(c , "She") == string("zhe"));
 }
 
 // 9
 TEST_CASE("Shuffle between d and t "){
-            CHECK(phonetic::find(c , "day") == string("Tay"));
+    string c = " KephalupUd siTDing lympz hUVever Vythyn deuDhulugycal KUnDexD reBer DenDaKle reZerWed BeeTing affendajes octopuZez soPD futi rapytli alder zhafe enaflinj ZqueeSe japz drayl svym syfhon rezfyratyon locomotion expellynj complex nervous excellend syghd amunj yndellygent behaviourally tiwerze curuna virus demplede UniUn SKSE   maLLUQ  Afkte YzHtY hUt cub QaQy folfol Iayr afErJeL zHyN upstairs pAlAjan dahad lalala  zhLoMY YiY SUOn ylanIa oryeL  yiyiyi  Bot iohoo saw  ieled  MOmmy  IardemshnotzY  ioloy   vent  Ialla yarden  valking    bovls vas wery dovnstairs borest sobt fovls papy peen  jirl porridje eatinj sleepinj ajain gust jolden ajain Onke Goldilokks kold qhair baqc Qame walking broke knocked Qold Khair BaKk Qame waS Saw zaid Goldiloqqz Zomeonez itZ Ztill zhe foreZt Tay Goltilokks porritge taddy anT saiT townsDairs golTen liDTle siTDing sidting sdill Dhere TownsTairs inDo foresd Dime OpUn tuo porridge    ";
+
+    CHECK(phonetic::find(c , "day") == string("Tay"));
             CHECK(phonetic::find(c , "Daddy") == string("taddy"));
             CHECK(phonetic::find(c , "and") == string("anT"));
             CHECK(phonetic::find(c , "little") == string("liDTle"));
-            CHECK(phonetic::find(c , "sitting") == string("sidting"));
+            CHECK(phonetic::find(c , "sitting") == string("siTDing"));
             CHECK(phonetic::find(c , "there") == string("Dhere"));
             CHECK(phonetic::find(c , "into") == string("inDo"));
-            CHECK(phonetic::find(c , "forest") == string("foresd"));
+            CHECK(phonetic::find(c , "forest") == string("borest"));
             CHECK(phonetic::find(c , "time") == string("Dime"));
 
 }
 
 // 7
 TEST_CASE("Shuffle between o and u "){
-            CHECK(phonetic::find(c , "upon") == string("UpOn"));
+    string c = " KephalupUd lympz hUVever Vythyn deuDhulugycal KUnDexD reBer DenDaKle reZerWed BeeTing affendajes octopuZez soPD futi rapytli alder zhafe enaflinj ZqueeSe japz drayl svym syfhon rezfyratyon locomotion expellynj complex nervous excellend syghd amunj yndellygent behaviourally tiwerze curuna virus demplede UniUn SKSE   maLLUQ  Afkte YzHtY hUt cub QaQy folfol Iayr afErJeL zHyN upstairs pAlAjan dahad lalala  zhLoMY YiY SUOn ylanIa oryeL  yiyiyi  Bot iohoo saw  ieled  MOmmy  IardemshnotzY  ioloy   vent  Ialla yarden  valking    bovls vas wery dovnstairs borest sobt fovls papy peen  jirl porridje eatinj sleepinj ajain gust jolden ajain Onke Goldilokks kold qhair baqc Qame walking broke knocked Qold Khair BaKk Qame waS Saw zaid Goldiloqqz Zomeonez itZ Ztill zhe foreZt Tay Goltilokks porritge taddy anT saiT townsDairs golTen liDTle sidting sdill Dhere TownsTairs inDo foresd Dime OpUn tuo porridge    ";
+
+    CHECK(phonetic::find(c , "upon") == string("OpUn"));
             CHECK(phonetic::find(c , "too") == string("tuo"));
             CHECK(phonetic::find(c , "hot") == string("hUt"));
             CHECK(phonetic::find(c , "Soon") == string("SUOn"));
@@ -85,7 +98,9 @@ TEST_CASE("Shuffle between o and u "){
 }
 
 TEST_CASE("Shuffle between i and y "){
-            CHECK(phonetic::find(c , "yair") == string("Iayr"));
+    string c = " KephalupUd lympz hUVever Vythyn deuDhulugycal KUnDexD reBer DenDaKle reZerWed BeeTing affendajes octopuZez soPD futi rapytli alder zhafe enaflinj ZqueeSe japz drayl svym syfhon rezfyratyon locomotion expellynj complex nervous excellend syghd amunj yndellygent behaviourally tiwerze curuna virus demplede UniUn SKSE   maLLUQ  Afkte YzHtY hUt cub QaQy folfol Iayr afErJeL zHyN upstairs pAlAjan dahad lalala  zhLoMY YiY SUOn ylanIa oryeL  yiyiyi  Bot iohoo saw  ieled  MOmmy  IardemshnotzY  ioloy   vent  Ialla yarden  valking    bovls vas wery dovnstairs borest sobt fovls papy peen  jirl porridje eatinj sleepinj ajain gust jolden ajain Onke Goldilokks kold qhair baqc Qame walking broke knocked Qold Khair BaKk Qame waS Saw zaid Goldiloqqz Zomeonez itZ Ztill zhe foreZt Tay Goltilokks porritge taddy anT saiT townsDairs golTen liDTle siTDing sidting sdill Dhere TownsTairs inDo foresd Dime OpUn tuo porridge    ";
+
+    CHECK(phonetic::find(c , "yair") == string("Iayr"));
             CHECK(phonetic::find(c , "iyi") == string("YiY"));
             CHECK(phonetic::find(c , "yeled") == string("ieled"));
             CHECK(phonetic::find(c , "YardeN") == string("yarden"));
@@ -100,7 +115,9 @@ TEST_CASE("Shuffle between i and y "){
 
 //13
 TEST_CASE("Shuffle Mix"){
-            CHECK(phonetic::find(c , "abcde") == string("Afkte"));
+    string c = " KephalupUd lympz hUVever Vythyn deuDhulugycal KUnDexD reBer DenDaKle reZerWed BeeTing affendajes octopuZez soPD futi rapytli alder zhafe enaflinj ZqueeSe japz drayl svym syfhon rezfyratyon locomotion expellynj complex nervous excellend syghd amunj yndellygent behaviourally tiwerze curuna virus demplede UniUn SKSE   maLLUQ  Afkte YzHtY hUt cub QaQy folfol Iayr afErJeL zHyN upstairs pAlAjan dahad lalala  zhLoMY YiY SUOn ylanIa oryeL  yiyiyi  Bot iohoo saw  ieled  MOmmy  IardemshnotzY  ioloy   vent  Ialla yarden  valking    bovls vas wery dovnstairs borest sobt fovls papy peen  jirl porridje eatinj sleepinj ajain gust jolden ajain Onke Goldilokks kold qhair baqc Qame walking broke knocked Qold Khair BaKk Qame waS Saw zaid Goldiloqqz Zomeonez itZ Ztill zhe foreZt Tay Goltilokks porritge taddy anT saiT townsDairs golTen liDTle siTDing sidting sdill Dhere TownsTairs inDo foresd Dime OpUn tuo porridge    ";
+
+    CHECK(phonetic::find(c , "abcde") == string("Afkte"));
             CHECK(phonetic::find(c , "malloc") == string("maLLUQ"));
             CHECK(phonetic::find(c , "uriel") == string("oryeL"));
             CHECK(phonetic::find(c , "shlomi") == string("zhLoMY"));
@@ -117,6 +134,8 @@ TEST_CASE("Shuffle Mix"){
 
 // 39
 TEST_CASE("Shuffle Mix 2"){
+    string c = "    KephalupUd lympz hUVever Vythyn deuDhulugycal KUnDexD reBer DenDaKle reZerWed BeeTing affendajes octopuZez soPD futi rapytli alder zhafe enaflinj ZqueeSe japz drayl svym syfhon rezfyratyon locomotion expellynj complex nervous excellend syghd amunj yndellygent behaviourally tiwerze curuna virus demplede UniUn SKSE   maLLUQ  Afkte YzHtY hUt cub QaQy folfol Iayr afErJeL zHyN upstairs pAlAjan dahad lalala  zhLoMY YiY SUOn ylanIa oryeL  yiyiyi  Bot iohoo saw  ieled  MOmmy  IardemshnotzY  ioloy   vent  Ialla yarden  valking    bovls vas wery dovnstairs borest sobt fovls papy peen  jirl porridje eatinj sleepinj ajain gust jolden ajain Onke Goldilokks kold qhair baqc Qame walking broke knocked Qold Khair BaKk Qame waS Saw zaid Goldiloqqz Zomeonez itZ Ztill zhe foreZt Tay Goltilokks porritge taddy anT saiT townsDairs golTen liDTle siTDing sidting sdill Dhere TownsTairs inDo foresd Dime OpUn tuo porridge    ";
+
             CHECK(phonetic::find(c , "cephalopod") == string("KephalupUd"));
             CHECK(phonetic::find(c , "limbs") == string("lympz"));
             CHECK(phonetic::find(c , "however") == string("hUVever"));
@@ -156,5 +175,4 @@ TEST_CASE("Shuffle Mix 2"){
             CHECK(phonetic::find(c , "templete") == string("demplede"));
             CHECK(phonetic::find(c , "onion") == string("UniUn"));
             CHECK(phonetic::find(c , "zqze") == string("SKSE"));
-
 }
