@@ -10,7 +10,7 @@ using namespace phonetic;
 TEST_CASE("Shuffle between v and w "){
             CHECK(phonetic::find(c , "saw") == string("saw"));
             CHECK(phonetic::find(c , "went") == string("vent"));
-            CHECK(phonetic::find(c , "valking") == string("walking"));
+            CHECK(phonetic::find(c , "walking") == string("valking"));
             CHECK(phonetic::find(c , "bowls") == string("bovls"));
             CHECK(phonetic::find(c , "was") == string("vas"));
             CHECK(phonetic::find(c , "very") == string("wery"));

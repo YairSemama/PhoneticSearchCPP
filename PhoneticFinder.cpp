@@ -76,7 +76,7 @@ string substring(string text ,int start , int end ) {
         for (int i = 0; i < text.size(); ++i) {
             if (text[i] == c && i != 0) {
                 ans = substring(text ,start, i-1);
-                //  cout << ans << " || " << word << endl ;
+                 // cout << ans << " || " << word << endl ;
                 flag = check(ans, word);
                 if (flag) return ans;
                 while(i != text.size()-1 && text[i+1] == c){
