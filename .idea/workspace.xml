@@ -13,7 +13,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e0d5fb9a-99d8-4253-bf2d-95f080a34bc4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhoneticFinder.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneticFinder.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled6.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/untitled6.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +90,7 @@
       <workItem from="1584991263479" duration="3409000" />
       <workItem from="1585042070884" duration="10830000" />
       <workItem from="1585055781560" duration="1836000" />
-      <workItem from="1585057895238" duration="897000" />
+      <workItem from="1585057895238" duration="4514000" />
     </task>
     <servers />
   </component>

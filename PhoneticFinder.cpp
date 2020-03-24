@@ -69,16 +69,19 @@ string substring(string text ,int start , int end ) {
 
 
      string phonetic::find(string text, string word) {
-
+// hai      bye     ha  \n
         int start = 0;
         int flag = 0;
         string ans;
         for (int i = 0; i < text.size(); ++i) {
-            if (text[i] == c) {
+            if (text[i] == c && i != 0) {
                 ans = substring(text ,start, i-1);
-              //  cout << ans << " || " << word << endl ;
+                //  cout << ans << " || " << word << endl ;
                 flag = check(ans, word);
                 if (flag) return ans;
+                while(i != text.size()-1 && text[i+1] == c){
+                    i++;
+                }
                 start = i + 1;
             }
             if(i == text.size()-1){
