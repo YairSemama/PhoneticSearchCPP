@@ -69,7 +69,6 @@ string substring(string text ,int start , int end ) {
 
 
      string phonetic::find(string text, string word) {
-//".....KephalupUd lympz "
         int start = 0;
         int flag = 0;
         string ans;
